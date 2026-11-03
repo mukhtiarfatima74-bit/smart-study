@@ -1,0 +1,13 @@
+# Secrets - NEVER upload these
+.streamlit/secrets.toml
+.env
+# Local database (contains private data)
+*.db
+*.sqlite3
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
